@@ -3,3 +3,4 @@ a.out
 !tmp/.keep
 tmp/
 copybmp
+.DS_Store
