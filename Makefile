@@ -1,10 +1,12 @@
 CC := gcc
 
 .PHONY: all
-all: copybmp
+all: copybmp gray
 
 copybmp: copybmp.o bitmap.o
 
+gray: gray.o bitmap.o
+
 .PHONY: clean
 clean:
-	$(RM) *.o copybmp
+	$(RM) *.o copybmp gray
