@@ -40,9 +40,12 @@ make
 # 2 課題1 画像のエッジ
 ./sobel-main sample.bmp sobel.bmp
 
+# 2 課題2 2値化
+./sobel-binary sample.bmp edge.bmp
+
 # ビルド結果と生成物の削除
 make clean
-rm gray.bmp thermo.bmp post.bmp sobel.bmp
+rm gray.bmp thermo.bmp post.bmp sobel.bmp edge.bmp
 ```
 
 ## LISENCE
