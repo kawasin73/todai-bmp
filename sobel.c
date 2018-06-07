@@ -1,6 +1,6 @@
-#include "bitmap.h"
 #include <math.h>
 #include <stdio.h>
+#include "sobel.h"
 
 Rgb getRgb(Image *img, int i, int j);
 
